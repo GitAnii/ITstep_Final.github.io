@@ -1,0 +1,287 @@
+body{
+    font: 15px/1.5 'Poppins';
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+/*global*/
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*header*/
+
+
+header{
+    padding-top: 40px;
+    min-height: 70px;
+
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    transition: 0.2s;
+}
+
+
+header li{
+    float:  left;
+    display: inline;
+    padding: 0 10px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding .img_1{
+    margin: 0;
+    margin-top: 10px;
+   
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .current{
+    color: rgba(255, 74, 34, 1);
+}
+
+header a:hover{
+    color: rgba(255, 74, 34, 1);
+    
+}
+
+header button{
+    width: 110px;
+    height: 38px;
+    border: 1px solid rgba(255, 74, 34, 1);
+    border-radius: 20px;
+    color: rgba(255, 74, 34, 1);
+    background: none;
+    transition: 0.2s;
+    margin-top: -5px;
+    font-weight: 500;
+    
+}
+
+header button:hover{
+    background-color: rgba(255, 74, 34, 1);
+    color: white;
+}
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 270px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+
+}
+
+
+
+
+
+#container button {
+  background-color: rgba(255, 74, 34, 1);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+  
+}
+
+ #container button:hover {
+  background-color: white;
+  color:rgba(255, 74, 34, 1);
+  border: 1px solid rgba(255, 74, 34, 1);
+}
+
+#container {
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 70%;
+  margin-left:60px;
+}
+#container form{
+    margin-left: 50px;
+    width: 20%;
+}
+
+
+.tbody{
+    margin-top: 200px;
+    width: 50%;
+    padding: 0px 110px;
+    padding-bottom: 200px;
+}
+.tbody h1{
+  font-size: 35px;
+  margin-left: 60px;
+}
+.banner{
+    margin-top: 100px;
+    background: url(images/contimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 440px;
+}
+
+
+
+.banner div{
+    padding: 160px 170px;
+    line-height: 20px;
+}
+.banner strong{
+    color: rgba(255, 74, 34, 1);
+    font-size: 25px;
+    
+}
+.banner h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    
+}
+.info{
+    
+   margin-left: 900px;
+    font-size: 22px;
+    margin-top: -800px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.info hr{
+  width: 380px;
+  margin-right: 250px;
+}
+
+.info span{
+    font-size: 18px;
+    color: grey;
+   
+}
+
+footer{
+    display: flex;
+     height: 330px;
+    justify-content: center;
+    flex-direction: column;
+   margin-top: 500px;
+    background-color:rgba(255, 74, 34, 1);
+
+  }
+
+  footer h1{
+    color: white;
+    padding: 0px 100px;
+
+  }
+
+  footer p{
+    color: white;
+    padding: 0px 100px;
+  }
+
+  footer .ul_1{
+    color: white;
+    text-align: center;
+   margin: 0px 650px;
+    text-align: left;
+    margin-top: -130px;
+    list-style: none;
+    line-height: 25px;
+
+
+  }
+
+  .ul_1 span{
+    font-weight: bolder;
+  }
+  footer .ul_2{
+    color: white;
+    text-align: center;
+   margin: 0px 900px;
+    text-align: left;
+    margin-top: -150px;
+    list-style: none;
+    line-height: 25px;
+  }
+
+  .ul_2 span{
+    font-weight: bolder;
+  }
+  footer .ul_3{
+    color: white;
+  }
+
+  .ul_3 span{
+    font-weight: bolder;
+  }
+  .ul_3 {
+    color: white;
+    width: 100%;
+    list-style: none;
+   margin: 0px 1100px;
+    text-align: left;
+    margin-top: -50px;
+    
+    
+  }
+
+  
+
+  @media screen and (max-width:800px){
+    input[type=text], select, textarea{
+      width: 130px;
+      margin-left: -50px;
+    }
+  }
+  
+  @media screen and (max-width:800px){
+  .info{
+  text-align: center;
+  
+  
+  
+  }
+    }
+
+    @media screen and (max-width : 800px){
+      header{
+        margin-left: 50px;
+    
+      }
+      
+    }
+    
+    @media screen and (max-width:800px){
+      .banner h1 {
+       line-height: 30px;
+       }}
+

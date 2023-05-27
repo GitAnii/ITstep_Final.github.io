@@ -4,9 +4,266 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ramen.kuy</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <a href="index.html"><img src="images/Ramen.kuy (1).png" alt="" class="img_1"></a>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html" class="current" >Home</a></li>
+                    <li><a href="order.html">How to Order</a></li>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="recipies.html">Our Recipies</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li> <button type="submit" id="myButton" onclick="popup()">Subscribe</button></li>
+                 
+                </ul>
+
+            </nav>
+          
+        </div>
+    </header>
+
+ 
+
+    <div id="showcase">
+        <div class="container">
+            <h1>Delicious Food & <br> Recipes For Your Family</h1>
+            <p>Id cursus metus aliquam eleifend mi in nulla posuere. <br> Lorem faucibus vitae aliquet nec ullamcorper sit.</p>
+        <div>
+            <button type="submit" class="button_2"><a href="order.html" style="color:white; text-decoration: none;" >Order now </a></button>
+            <button type="submit" class="button_3"><a href="contact.html" style="color:rgba(255, 74, 34, 1); text-decoration: none;" >Join reseller</a> </button>
+        </div> </div>
+        <section class="carousel">
+            <input type="radio" name="position"  />
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+          
+            <main id="carousel">
+              <div class="item"> <img src="images/mshia1.jpg" alt="" style="border-radius: 20px;"></div>
+              <div class="item"> <img src="images/mshia2.png" alt=""  style="border-radius: 15px;"></div>
+              <div class="item"> <img src="images/njl1767c.png" alt=""  style="border-radius: 20px;"></div>
+              
+              <main>
+             
+        </div>   
+        
+      
+    </section>
+
+    <section id="boxes">
+        <!-- <a href="menu.html" >View all</a> -->
+        <ul class="container" >
+            <h1>Popular menu</h1>
+            <li class="box">
+               
+                <img src="images/uglytiramisu.png" alt="">
+
+                <h3>Tiramisu Cake With Strawberry Sauce</h3>
+                <h4>$12.00 <span>1035 ordered</span></h4>
+                
+                <div style="margin-left: 20px;"> 4.5 
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 5.png" alt="" style="width: 18px;">
+                 
+                                <button onclick="addtocartfunc()">Add to cart</button>
+                            </li></div>
+
+                            
+
+            <li class="box">
+                <img src="images/cupcakes.png" alt="">
+                <h3>Premium Cupcakes</h3>
+                <h4>$12.00<span>1035 ordered</span></h4> 
+ <div style="margin-left: 20px;"> 4.5 
+    <img src="images/Star 1.png" alt="" style="width: 18px;">
+    <img src="images/Star 1.png" alt="" style="width: 18px;">
+    <img src="images/Star 1.png" alt="" style="width: 18px;">
+    <img src="images/Star 1.png" alt="" style="width: 18px;">
+    <img src="images/Star 5.png" alt="" style="width: 18px;">
+ 
+                <button onclick="addtocartfunc()">Add to cart</button>
+            </li></div>
+
+            <li class="box">
+                <img src="images/cookiesss.png" alt="">
+                <h3>Premium Cookies</h3>
+                <h4>$12.00 <span>1035 ordered</span></h4>
+
+                <div style="margin-left: 20px;"> 4.5 
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 1.png" alt="" style="width: 18px;">
+                    <img src="images/Star 5.png" alt="" style="width: 18px;">
+                 
+                                <button onclick="addtocartfunc()">Add to cart</button>
+                            </li></div>
+            </li>
+
+        </ul>
+    </section>
+
+
+
+
     
+    <section id="banner">
+        <div class="image-slideshow">
+
+            <div class="image fade">
+            <img src="images/contimg.png" alt="">
+            </div>
+              
+            <div class="image fade">
+            <img src="images/contimg2.png" alt="">
+            </div>
+              
+            <div class="image fade">
+            <img src="images/contimg4.png" alt="">
+            </div> 
+             <div id="card">
+            <p>Id cursus metus aliquam eleifend mi in nulla posuere. Lorem faucibus vitae aliquet nec ullamcorper sit.</p>
+          <button type="submit" onclick="subscribe()" >Subscribe</button>
+        </div>
+          </div> 
+
+         
+
+
+
+      
+    </section>
+
+    <section id="tbody">
+        <h1>Top Recipie</h1>
+      <div class="container">
+        
+       
+      <div class="myslideshow">
+        
+          <div class="mySlides fade2">
+            <img src="images/mainimg.png" alt="">
+          </div>
+
+          <div class="mySlides fade2">
+       
+            <img src="images/cookie1.png"  class="cookie">
+           
+          </div>
+        
+          <div class="mySlides fade2">
+            <img src="images/cookie2.png"  class="cookie">
+           
+          </div>
+          <div class="mySlides fade2">
+            
+              <img src="images/cookie3.png"  class="cookie">
+            
+             </div>
+       
+          <a class="prev" onclick="plusSlides(-1)"><img src="images/Group 12.png" alt=""></a>
+            <a class="next" onclick="plusSlides(1)"><img src="images/Group 11.png" alt=""></a>
+            </div class="myslideshow">
+            <div class="minicookies">
+                <ul>
+                    <li><img src="images/Rectangle 11.png" alt="" class="cookiesimages"></li>
+                    <li><img src="images/Rectangle 12.png" alt="" class="cookiesimages"></li>
+                    <li><img src="images/Rectangle 13.png" alt="" class="cookiesimages"></li>
+                    <li><img src="images/Rectangle 14.png" alt="" class="cookiesimages"></li>
+                </ul>
+            </div>
+        
+         </div>
+
+           
+                
+ 
+             <div class="recipie">  
+            <h1>Home Made Chocolate Donut</h1>
+            <p>Id cursus metus aliquam eleifend mi in nulla posuere. Lorem <br> faucibus vitae aliquet nec ullamcorper sit.</p>
+            <span class="span1"> August, 25, 2003</span> <span>15 minutes cook</span>
+           <ol>
+            Adipiscing at in tellus integer. Pellentesque massa placerat duis <br> ultricies lacus. Nisi porta lorem mollis aliquam ut porttitor leo. 
+             <br> <br>
+            <li> Venenatis cras sed felis eget.</li> <br>
+            <li> Duis ultricies lacus sed turpis tincidunt.</li> <br>
+            <li> Interdum varius sit amet mattis.</li> <br>
+            <li> Libero justo laoreet sit amet cursus sit amet dictum sit.</li> <br>
+            <li> Pellentesque massa placerat duis </li> <br>
+           
+           </ol>  
+           <div class="comment">
+            <div class="ellipses">
+            <!-- <img src="images/Ellipse 1.png" alt="" style="width:35px">
+            <img src="images/Ellipse 2.png" alt="" style="width:35px">
+            <img src="images/Ellipse 3.png" alt="" style="width:35px">
+            <img src="images/Ellipse 4.png" alt="" style="width:35px"> -->
+             <p>1.2K+ comment  </p>
+
+           
+            </div>
+           
+               
+            
+        </div>
+        </div>
+
+      
+  
+</div>
+
+           
+
+
+   
+      </div>
+    </section>
+
+
+    <footer>
+        <h1>DeliCook</h1>
+        <p>Id cursus metus aliquam eleifend mi in <br> nulla posuere. Lorem faucibus vitae aliquet</p>
+
+        <ul class="ul_1"><span>About Us </span>
+        <a href="#"><li>About DeliCook</li></a>    
+        <a href="#"> <li>Partnerships</li></a>   
+          <a href="#"><li>Customer</li></a>  
+           <a href="#"><li>Privacy Policy</li></a> 
+           <a href="#"><li>Terms of Service</li></a> 
+        </ul>
+
+        <ul class="ul_2"> <span> Services</span>
+         <a href=""> <li>Menu</li></a>  
+          <a href=""><li>Recipe</li></a>  
+           <a href=""><li>Delivery</li></a> 
+           <a href=""><li>Reseller</li></a> 
+          <a href=""> <li>Course</li></a> 
+        </ul>
+      
+
+        <ul class="ul_3" >
+            <span>Contact Us</span> 
+            <li>
+             <a href=""> <img src="images/LinkedIn.png" alt="" style="width: 35px;"></a>  
+             <a href=""><img src="images/Twitter Squared.png" alt="" style="width: 35px;"></a>   
+               <a href=""><img src="images/Instagram.png" alt="" style="width: 35px;"></a> 
+             <a href=""> <img src="images/Facebook.png" alt="" style="width: 35px;"></a>  
+
+            </li>
+            <li>@delicook.com All right reserved.</li>
+        </ul>
+    </footer>
+<script src="index.js"></script>
 </body>
 </html>
