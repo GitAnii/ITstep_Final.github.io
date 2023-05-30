@@ -1,6 +1,3 @@
-document.getElementById("welcome").innerHTML="welcome "+localStorage.getItem("fi")
-
-
 //add to cart function
 
 
