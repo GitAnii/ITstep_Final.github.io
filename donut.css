@@ -1,0 +1,205 @@
+body{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+  
+}
+
+
+.container{
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/*header*/
+
+
+header{
+  padding-top: 40px;
+  min-height: 60px;
+  
+}
+
+header a{
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  transition: 0.2s;
+}
+
+
+header li{
+  float:  left;
+  display: inline;
+  padding: 0 10px 0 20px;
+ 
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding .img_1{
+  margin: 0;
+  margin-top: 10px;
+ 
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .current{
+  color: rgba(255, 74, 34, 1);
+}
+
+header a:hover{
+  color: rgba(255, 74, 34, 1);
+  
+}
+.vau{
+    padding: 60px 106px;
+}
+
+p{
+    padding: 20px 0px;
+    font-size:1vw;
+    
+}
+.image{
+    display: block;
+    width: 70%;
+    height: auto;
+   
+}
+
+.otherones{
+    margin: 150px 106px;
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgba(237, 237, 238, 0.756);
+    padding: 10px 0px;
+  
+}
+.chs{
+ 
+ height: 300px;
+ width: auto;
+ float: right;
+ margin: 50px 0px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+#rame a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#rame a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:800px) {
+   .otherones{
+    width: 500px;
+    height: 800px;
+}
+
+
+
+}
+
+footer{
+    display: flex;
+     height: 330px;
+    justify-content: center;
+    flex-direction: column;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color:rgba(255, 74, 34, 1);
+
+  }
+
+  footer h1{
+    color: white;
+    margin-left: 100px;
+
+  }
+
+  footer p{
+    color: white;
+    padding: 0px 100px;
+  }
+
+  footer .ul_1{
+    color: white;
+    text-align: center;
+   margin: 0px 650px;
+    text-align: left;
+    margin-top: -130px;
+    list-style: none;
+    line-height: 25px;
+   
+
+  }
+
+  .ul_1 a{
+    text-decoration: none;
+     color: white;
+  }
+  .ul_2 a{
+    text-decoration: none;
+     color: white;
+  }
+  
+
+  .ul_1 span{
+    font-weight: bolder;
+    font-size: 17px;
+  }
+   .ul_2{
+    color: white;
+    text-align: center;
+    
+    text-align: left;
+    float: right;
+    padding: 0 900px;
+    margin-top: -150px;
+    list-style: none;
+    line-height: 25px;
+  }
+
+  .ul_2 span{
+    font-weight: bolder;
+    font-size: 17px;
+  }
+
+
+  .ul_3  span{
+    font-weight: bolder;
+    font-size: 17px;
+  }
+  .ul_3 {
+    color: white;
+    width: 100%;
+    list-style: none;
+   margin: 0px 1100px;
+    text-align: left;
+    margin-top: -160px;
+   line-height: 50px;
+   
+    
+  }
+
+

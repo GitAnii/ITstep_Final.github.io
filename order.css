@@ -1,145 +1,109 @@
-/* body{
-    font: 15px/1.5 'Poppins';
-    padding: 0;
-    margin: 0;
-    
+body{
+  font: 15px/1.5 'Poppins';
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  
 }
-
+/*global*/
 .container{
-    width: 85%;
-    margin: auto;
-    overflow: hidden;
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
 }
 ul{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 }
 
 
-
+/*header*/
 
 
 header{
-    padding-top: 40px;
-    min-height: 70px;
+  padding-top: 40px;
+  min-height: 70px;
 
 }
 
 header a{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 18px;
-    transition: 0.2s;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  transition: 0.2s;
+
 }
 
 
 header li{
-    float:  left;
-    display: inline;
-    padding: 0 10px 0 20px;
+  float:  left;
+  display: inline;
+  padding: 0 10px 0 20px;
 }
 
 header #branding {
-    float: left;
+  float: left;
 }
 
 header #branding .img_1{
-    margin: 0;
-    margin-top: 10px;
-   
+  margin: 0;
+  margin-top: 10px;
+
+
+ 
 }
 header nav {
-    float: right;
-    margin-top: 10px;
+  float: right;
+  margin-top: 10px;
 }
 header .current{
-    color: rgba(255, 74, 34, 1);
+  color: rgba(255, 74, 34, 1);
 }
 
 header a:hover{
-    color: rgba(255, 74, 34, 1);
-    
+  color: rgba(255, 74, 34, 1);
+  
 }
 
-header button{
-    width: 110px;
-    height: 38px;
-    border: 1px solid rgba(255, 74, 34, 1);
-    border-radius: 20px;
-    color: rgba(255, 74, 34, 1);
-    background: none;
-    transition: 0.2s;
-    margin-top: -5px;
-    font-weight: 500;
-    
+.sg{
+width: 150px;
+height: 38px;
+border: 1px solid rgba(255, 74, 34, 1);
+border-radius: 20px;
+color: rgba(255, 74, 34, 1);
+background: none;
+transition: 0.2s;
+margin-top: -5px;
+font-weight: 500;
+padding: 5px 20px;
+
 }
 
-header button:hover{
-    background-color: rgba(255, 74, 34, 1);
-    color: white;
-}
-
-
-.popbox {
-    display: none;
-    position: absolute;
-    z-index: 99999;
-    width: 400px;
-    padding: 10px;
-    background: #EEEFEB;
-    color: #000000;
-    border: 1px solid #d43515;
-    margin: 0px;
-    
-}
-.popbox h2 {
-    background-color: #d17e19;
-    color: #E3E5DD;
-    font-size: 14px;
-    display: block;
-    width: 100%;
-    margin: -10px 0px 8px -10px;
-    padding: 5px 10px;
+.sg:hover{
+background-color: rgba(255, 74, 34, 1);
+color: white;
 }
 
 
-.item{
-    width: 370px;
-    height: 440px;
+.step1 h1{
+font-size: 30px;
 }
-#carousel{
-grid-row: 1 / 2;
-grid-column: 1 / 8;
-width: 100%;
-height: 500px;
-display: flex;
-align-items: center;
-justify-content: center;
-overflow: hidden;
-perspective: 400px;
-
+.step1 a:hover{
+  text-decoration: underline;
 }
-.carousel {
- 
-    height: 600px;
-    margin: 0;
-    display: grid;
-    grid-template-rows: 400px 100px;
-    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-    align-items: center;
-    justify-items: start;
-   margin-top: 200px;
-  }
-   */
 
-  
-  
-  
-  
-  
-  
-  
+.step1 a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+
+
+
+
+
 
